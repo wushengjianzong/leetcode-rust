@@ -19,7 +19,7 @@ impl Solution {
             x = x / 10;
             println!("x={} y={}", x, y);
         }
-        return (x == y) | (x == y / 10);
+        return (x == y) || (x == y / 10);
     }
 }
 
