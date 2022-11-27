@@ -2,6 +2,9 @@ pub mod leetcode_1;
 pub mod leetcode_2;
 pub mod leetcode_3;
 pub mod leetcode_4;
+pub mod leetcode_9;
+pub mod leetcode_13;
+pub mod leetcode_20;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
